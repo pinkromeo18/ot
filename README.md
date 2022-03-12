@@ -9,7 +9,10 @@ document.body.innerHTML=ot(temp,obj)
 ```
 var re=/\{[\w\.]*\}/
 
-obj.deep2.deep3
+
+obj.deep0.deep1.deep2
+
+obj[deep0][deep1][deep2]
 
 check deep
 ```
