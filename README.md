@@ -30,3 +30,24 @@ if (!String.prototype.format) {
   };
 }
 ```
+
+
+```
+
+var o={x:0,y:0,v:'N',c:'A'};
+[o].map(d=>`${d.x}${d.y}${v}`)
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
